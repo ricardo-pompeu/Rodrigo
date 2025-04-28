@@ -1,0 +1,44 @@
+@import url("stylespc.css");
+@import url("stylesphone.css");
+@import url("colors.css");
+
+
+
+
+
+
+@keyframes piscar {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+
+}
+
+
+
+html {
+scroll-behavior: smooth;
+}
+
+
+body {
+font-family: "Rubik";
+margin: 0;
+}
+
+
+
+
+focus {
+animation: piscar 1s infinite;
+    }
+
+
+
+

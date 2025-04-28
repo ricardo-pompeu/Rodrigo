@@ -1,0 +1,433 @@
+@media only screen and (min-width: 921px) {
+
+
+
+
+
+section {
+padding: 3em;
+padding-block: 8em;
+}
+
+
+
+ 
+/*------------------------------------------------------------------------------*/
+/*BARRA DE NAVEGAÇÃO*/
+
+.navgator {
+display: flex;
+margin: 0;
+list-style: none;
+justify-content: space-between;
+padding-inline: 3em;
+position: fixed;
+top:0;
+width: -moz-available;
+width: -webkit-fill-available;
+z-index: 1000;
+height: 56px;
+}
+
+.paginator-nomes {
+display: flex;
+}
+
+.paginator-nomes li{
+display: flex;
+text-decoration: none;
+font-weight: 500;
+}
+
+.paginator-nomes li a{
+display: flex;
+text-decoration: none;
+align-items: center;
+padding: 10px;
+margin: 10px;
+margin-left: -10px;
+margin-right: 2em;
+gap: 6px;
+}
+
+
+.paginator-nomes li a:hover {
+border-radius:4px;
+
+}
+
+
+/*ÍCONES DE CONTRASTE*/
+
+
+.paginator-nomes li.contrast-phone {
+display: none;
+}
+
+
+
+
+
+
+
+.paginator-icon {
+display: flex;
+}
+
+.paginator-icon li {
+display: flex;
+align-items: center;
+padding: 10px;
+margin: 10px;
+margin-right: -10px;
+cursor: pointer;
+
+
+
+}
+
+.paginator-icon li a{
+display: flex;
+align-items: center;
+
+}
+
+.paginator-icon li:hover{
+border-radius:4px;
+}
+
+
+
+
+
+
+
+
+
+/*FONTES E LETRAS*/
+
+h1 {
+font-size: 3em;
+
+}
+
+P {
+font-size: 1.2em;
+}
+
+p a {
+text-decoration: none;
+}
+
+p3 {
+margin-top: 0.4em;
+}
+
+
+
+
+
+
+
+.grid-bg-apps a {
+    
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    gap: 8px;
+    margin-block: 0.8em;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------*/
+
+.grid-bg-sobre {
+background: url(src/imagem/4.gif);
+border-radius: 10px;
+padding: 10em;
+background-position-y: bottom;
+}
+
+.grid-bg-sobre-1 {
+  border-radius: 10px;
+  padding: 2em;
+  text-align: justify;
+}
+
+
+
+.grid-button-sobre {
+margin: 2em;
+  justify-content: center;
+  display: flex;
+
+}
+
+
+.grid-button-sobre button {
+margin-inline: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+.grid-bg-apps img {
+width: 100px;
+}
+
+
+.grid-bg-projetos {
+display: flex;
+justify-content: center;
+gap: 4em;
+}
+
+.grid-bg-apps {
+display: grid;
+padding: 2em;
+text-align: center;
+border-radius: 10px;
+justify-items: center;
+width: -moz-available;
+}
+
+
+.grid-bg-apps p1 {
+font-weight: bold;
+margin: 0.6em;
+cursor: pointer;
+display: flex;
+align-items: center;
+gap:4px;
+}
+
+.projetos p {
+margin-block: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-bg-hbl {
+display: grid;
+
+
+
+}
+
+
+
+
+
+.grid-apps-hbl {
+  display: flex;
+  margin-block: 1em;
+  padding: 1em;
+border-radius: 10px;
+gap: 10%;
+}
+
+
+.grid-img-hb {
+
+
+}
+
+
+.grid-name-hb {
+display: grid;
+text-align: center;
+width: 100%;
+}
+
+.grid-name-hb p1 {
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:4px;
+padding-bottom: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-bg-contatos {
+display: flex;
+gap:6em;
+
+}
+
+.grid-apps-contatos {
+  display: grid;
+  padding: 2em;
+  margin-block: 1em;
+  border-radius:10px;
+width: 100%;
+  text-align: center;
+  justify-items: center;
+  text-decoration: none;
+}
+
+
+.grid-apps-contatos p1 {
+font-size: 1.3em;
+}
+
+
+
+.grid-ctts{
+display: flex;
+gap: 2em;
+justify-content: center
+} 
+
+
+
+
+
+
+
+
+
+.grid-bg-contatos a {
+display: flex;
+text-decoration: none;
+width: -moz-available;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+img {
+width: 100%;
+border-radius: 10px;
+}
+
+.grid-inicial-1 {
+display: flex;
+}
+
+
+.grid-inicial {
+width: 50%;
+padding-right: 4em;
+}
+
+
+.img-inicial {
+width: 50%;
+justify-content: end;
+  display: grid;
+  align-items: center;
+  justify-items: end;
+}
+
+
+
+
+
+
+
+
+
+/*BOTÕES*/
+
+button{
+border: none;
+padding: 10px;
+border-radius: 10px;
+font-weight: bold;
+cursor: pointer;
+align-items: center;
+display: flex;
+gap: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html body.dark-mode div.bar ul.navgator div.paginator-nomes li.contrast-light {
+display: none;
+}
+
+html body.dark-mode div.bar ul.navgator div.paginator-nomes li.contrast-dark {
+display: none;
+}
+
+
+
+html body.light-mode div.bar ul.navgator div.paginator-nomes li.contrast-light {
+display: none;
+}
+
+html body.light-mode div.bar ul.navgator div.paginator-nomes li.contrast-dark {
+display: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+}
+
