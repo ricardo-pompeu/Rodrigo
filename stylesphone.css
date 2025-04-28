@@ -10,7 +10,10 @@
  padding-block: 6em;
  
  }
- 
+
+ .paginator-nomes li.contrast-light li.contrast-dark {
+    display: none;
+}
  
  
 /*------------------------------------------------------------------------------*/
