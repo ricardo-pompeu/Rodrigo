@@ -162,6 +162,8 @@ margin-top: 0.4em;
 background: url(src/imagem/4.gif);
 padding: 8em;
 border-radius: 10px;
+background-position-y: bottom;
+background-position-x: center;
 }
 
 .grid-button-sobre {
