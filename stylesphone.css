@@ -11,7 +11,7 @@
  
  }
 
- .paginator-nomes li.contrast-light li.contrast-dark {
+ .paginator-nomes li.contrast-light, .paginator-nomes li.contrast-dark {
     display: none;
 }
  
