@@ -6,7 +6,7 @@
 
 
  section{
- padding: 2em;
+ padding: 1em;
  padding-block: 6em;
  
  }
@@ -16,6 +16,11 @@
 /*------------------------------------------------------------------------------*/
 /*BARRA DE NAVEGAÇÃO*/
 
+.paginator-icon {
+ display: none;
+}
+
+ 
 .navgator {
 display: flex;
 margin: 0;
@@ -151,8 +156,8 @@ margin-top: 0.4em;
 
 
 .grid-bg-sobre {
-background: url(src/imagem/3.gif);
-padding: 2em;
+background: url(src/imagem/4.gif);
+padding: 8em;
 border-radius: 10px;
 }
 
